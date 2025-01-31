@@ -1,0 +1,13 @@
+.gridContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .noOrders {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+  
