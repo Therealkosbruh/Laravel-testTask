@@ -19,8 +19,6 @@ class OrderRequest extends FormRequest
             'tariff_id'     => ['required', 'exists:tariffs,id'],
             'schedule_type' => ['required', 'in:EVERY_DAY,EVERY_OTHER_DAY,EVERY_OTHER_DAY_TWICE'],
             'comment'       => ['nullable', 'string'],
-            'first_date'    => ['required', 'date', new ValidOrderDates()],
-            'last_date'     => ['required', 'date'],
             'delivery_ranges' => ['required', 'array', new ValidDeliveryRanges()],
         ];
     }
