@@ -3,6 +3,7 @@
     ```
     composer install
     php artisan migrate
+    php artisan db:seed
     ```
 
 + Перейдите в директорию `react` для установки зависимостей для React
