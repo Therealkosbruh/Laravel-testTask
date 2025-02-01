@@ -16,17 +16,7 @@ const router = createBrowserRouter([
     {
         path: '*',
         element: <Makeorder/>
-    },
-    // {
-    //     path: '/makeorder',                    FOR SPESIFIC ORDER 
-    //     element: <Makeorder/>
-    // },
-    // {
-    //     path: '/login',
-    //     element: <Makeorder/>                  FOR ADMIN LOGIN TO SEEEE ORDERS
-    // },
-
-
+    }
 ]);
 
 export default router;
